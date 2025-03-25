@@ -8,7 +8,7 @@ set(WXWIDGETS_OUTPUT ${WXWIDGETS_PATH}/cmake-build/lib/gcc_x64_dll)
 set(FREEGLUT_PATH third-party/OpenGL/freeglut-3.4.0)
 set(FREEGLUT_OUTPUT ${FREEGLUT_PATH}/cmake-build/bin)
 
-file(GLOB_RECURSE source_list ${PROJECT_SOURCE_DIR} source/*.cpp)
+file(GLOB_RECURSE source_list ${PROJECT_SOURCE_DIR} src/*.cpp)
 
 add_executable(${PROJECT_NAME} ${source_list})
 

@@ -1,6 +1,6 @@
 # wxWidgets
 
-Download the folder compressed folder of wxWidgets-3.2.3 and put inside this directory. Then, build the library.
+Download the compressed folder of wxWidgets-3.2.3 and put the uncompressed one inside this directory. Then, build the library.
 
 ```shell
 $> mkdir cmake-build
